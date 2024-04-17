@@ -98,12 +98,12 @@ Nesse exercício com loops fiz validações de Strings e valores. Usei métodos 
         System.out.println("Senha: " + getSenha());
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++");
     }
-}
+        }
 
       //main
       import java.util.Scanner;
-public class SenhaDiferenteNomeUsuario extends Usuario {
-    public static void main(String[] args) {
+        public class SenhaDiferenteNomeUsuario extends Usuario {
+            public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Usuario usuario1 = new Usuario();
 
